@@ -15,7 +15,7 @@
 
         @include('partials.admin.menu')
 
-        <div class="main-content" id="panel" class="{{(App::isLocale('ar-SA') ? 'text-left' : 'text-right')}}" dir="{{(App::isLocale('ar-SA') ? 'rtl' : 'ltr')}}">
+        <div class="main-content" id="panel" class="{{(App::isLocale('ar-SA') ? 'rtl text-left' : 'text-right')}}" dir="{{(App::isLocale('ar-SA') ? 'rtl' : 'ltr')}}">
 
             @include('partials.admin.navbar')
 
